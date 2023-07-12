@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sufiyan1234-heu/API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sufiyan1234-heu/API/issues"
+  },
+  "homepage": "https://github.com/sufiyan1234-heu/API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.3",
+    "nodemon": "^3.0.1"
+  }
+}
