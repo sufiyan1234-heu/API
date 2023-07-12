@@ -3,10 +3,10 @@ const mongoose = require('mongoose');
 const app = express()
 
 
+const todosRouter = require("./routes/todos");
+app.use(express.json());
 
-
-
-
+app.use("/todos", todosRouter);
 
 app.listen(3000, () => {
     console.log("server is on Port 3000")
