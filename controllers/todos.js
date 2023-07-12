@@ -21,4 +21,9 @@ const updateTodo = async (req, res) => {
     return res.send(todo);
 }
 
-module.exports = { getAllTodos, createNewTodo, updateTodo };
+const deleteTodo = async (req, res) => {
+    let todos = await Todo.findByIdAndDelete(req.params.id)
+    return res.send(todos)
+}
+
+module.exports = { getAllTodos, createNewTodo, updateTodo, deleteTodo };
